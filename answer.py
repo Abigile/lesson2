@@ -1,11 +1,19 @@
 def get_answer():
 	print('привет!')
 	while True:
-		x = input()
+		try:
+
+			x = input()
 		
+		except KeyboardInterrupt:
+			print('пока')
+			break
+
 		if x == "пока":
 			break
 
 		print('хм, что значит "{}"?'.format(x))
 
-get_answer()
+
+if __name__ = "__main__":
+	get_answer()
