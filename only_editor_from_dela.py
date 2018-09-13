@@ -41,3 +41,6 @@ for question in set(config.ques_ans):
 		with open('data.json', 'w', encoding = 'utf-8') as fh: 
 		#преобразовываем словарь data в unicode-строку и записываем в файл
 			fh.write(json.dumps(copi_ques_ans, ensure_ascii = False))
+with open('data.json', 'w', encoding = 'utf-8') as fh: 
+	#преобразовываем словарь data в unicode-строку и записываем в файл
+	fh.write(json.dumps(copi_ques_ans, ensure_ascii = False))
