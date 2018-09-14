@@ -15,5 +15,5 @@ def get_answer():
 		print('хм, что значит "{}"?'.format(x))
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
 	get_answer()
